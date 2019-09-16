@@ -264,9 +264,20 @@ career here, you'll have to answer the following:
 - What, in your opinion, is an important part of code reviews? That is, what is
   something you pay attention to when you review code, and that you appreciate
   when others do the same for your code?
+  
+  I think these are some of the things to keep in mind while doing a code review: 
+  1. Is there a better approch to solve the problem at hand. 
+  2. Are Unit tests written and passing
+  3. Readability of code. ( pep8 complaince)
+  4. Is code wriiten in modular way so it easier to expand on it for later iterations of same codebase. 
+  
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
+  
+  Some advantages of Containers:
+  1. We can have light runtime environment for the application which is independent of Operating System. 
+  2. Containers provide isolation of execution on same OS,opposed to Virtual machines which need to config individual runtimes           and OS
 
 Answer both of these questions (baseline ~5 sentences) here in text.
 
